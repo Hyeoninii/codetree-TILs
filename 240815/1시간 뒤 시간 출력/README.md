@@ -36,3 +36,14 @@
 [easy]: https://img.shields.io/badge/쉬움-%235cb85c.svg?for-the-badge
 [medium]: https://img.shields.io/badge/보통-%23FFC433.svg?for-the-badge
 [hard]: https://img.shields.io/badge/어려움-%23D24D57.svg?for-the-badge
+
+code
+package main
+
+import "fmt"
+
+func main(){
+    var a,b int
+    fmt.Scanf("%d:%d", &a, &b)
+    fmt.Printf("%d:%d",a+1, b)
+}
